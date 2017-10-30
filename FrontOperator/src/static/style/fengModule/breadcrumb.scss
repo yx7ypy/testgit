@@ -1,0 +1,9 @@
+.breadcrumb {
+    padding-left: 6px;
+    border-left: 2px solid #EA6D2D;
+    margin-bottom: 10px;
+    .el-breadcrumb__item {
+        line-height: 20px;
+        font-size: 15px;
+    }
+}

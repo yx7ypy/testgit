@@ -1,0 +1,126 @@
+@import "../base/min";
+
+.goods-price-box {
+    background: #fff;
+    overflow:hidden;
+    padding: 20px;
+    border-radius: 6px;
+    .con-box {
+        .top > * {
+            float: left;
+        }
+        .top > span {
+            height: 36px;
+            line-height: 36px;
+        }
+        .top {
+            .el-input {
+                width: 13%;
+                margin: 0 5px;
+            }
+            .el-button {
+                margin: 0 5px;
+            }
+            .upload-demo {
+                width: 16%;
+                height: 32px;
+                line-height: 32px;
+                .el-button--small {
+                    padding: 11px;
+                }
+            }
+        }
+        .info{
+            margin-top:20px;
+            width:100%;
+            overflow:hidden;
+            .leftbox{
+                width:25%;
+                height:300px;
+                float:left
+            }
+            .middlebox{
+                width:45%;
+                float:left;
+                ul{
+                    width:100%;
+                    li {
+                        width: 100%;
+                        height: $searDivHeight;
+                        line-height: $searDivHeight;
+                        span:nth-child(1) {
+                            float: left;
+                            font-size: 16px;
+                        };
+                        span:nth-child(2) {
+                            float: left;
+                            margin-left: 15px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .mar-bottom10{
+                    width:100%;
+                    .el-item{
+                        width: 100%;
+                        .price-box {
+                            .topbar {
+                                font-size: 16px;
+                                margin-bottom:10px;
+                            }
+                            .minus{
+                                padding:3px 4px 4px 4px;
+                                color:#FFF;
+                                background-color:#EA6D2D;
+                            }
+                            span{
+                                background-color:#aaa;
+                            }
+                            input{
+                                width:60px;
+                            }
+                            .fa{
+                                margin:0px 5px;
+                                background-color:#EA6D2D;
+                                border-radius:6px;
+                                padding:5px;
+                            }
+                            .gs{
+                                margin:0px;
+                                background-color:#169BD5;
+                                border-radius:8px;
+                                padding:5px;
+                            }
+                            .xia{
+                                margin-top:150px;
+                                .baocun{
+                                    position:fixed;
+                                    padding:8px 12px;
+                                    bottom:20px;
+                                    right:100px;
+                                    border-radius:8px;
+                                    span{
+                                        background-color:#169BD5;
+                                    }
+                                }
+                                .fanhui{
+                                    position:fixed;
+                                    padding:5px 10px;
+                                    bottom:20px;
+                                    right:20px;
+                                    border-radius:8px;
+                                }
+                            }
+                            .el-button--primary{
+                                border:none;
+                            }
+                            .el-button{
+                                background:#169BD5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

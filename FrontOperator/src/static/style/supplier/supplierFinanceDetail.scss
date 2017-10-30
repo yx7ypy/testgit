@@ -1,0 +1,18 @@
+@import "../base/min";
+
+.el-form{
+    background: #fff;
+    .el-row{
+        .el-col{
+            .el-form-item{
+                .el-form-item__label{
+                    width:150px;
+                }
+            }
+        }        
+    }
+    
+}
+.el-form-item__label{
+    width:150px;
+}

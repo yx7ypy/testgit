@@ -1,0 +1,34 @@
+@import "../base/min";
+
+.warehouse-bind {
+    .sear-oper-excel-box{
+        button:nth-child(1){
+            background: #ec6d1e;
+            border: none;
+        }
+    }
+    .sear-oper-box{
+        button:nth-child(1){
+            background: #09bb07;
+            border: none;
+        }
+        button:nth-child(2){
+            background: #407ef5;
+            border: none;
+        }
+    }
+    .list-oper-box{
+        button:nth-child(1){
+            background: #ec6d1e;
+            border: none;
+        }
+        button:nth-child(2){
+            background: #407ef5;
+            border: none;
+        }
+         button:nth-child(3){
+            background: #09bb07;
+            border: none;
+        }
+    }
+}

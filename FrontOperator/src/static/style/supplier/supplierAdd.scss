@@ -1,0 +1,24 @@
+@import "../base/min";
+
+.supplier-add{
+    background: #fff;
+    border-radius: 5px;
+    border:1px solid #e0e0e0;
+    padding:0 15px;
+    .el-form-item{
+        width:600px;
+    }
+    .area-con {
+        .el-form-item__content{
+            .el-form-item{
+                float: left;
+                width: 160px;
+            }
+        }
+        
+    }
+    .title{
+    margin: 15px 0;
+    display: block;
+    }
+}

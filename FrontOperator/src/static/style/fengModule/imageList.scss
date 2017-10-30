@@ -1,0 +1,15 @@
+.images-list {
+    .image-ward {
+        display: inline-block;
+        float: left;
+        width: 148px;
+        height: 148px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        line-height: 0;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+}

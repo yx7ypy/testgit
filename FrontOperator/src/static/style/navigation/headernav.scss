@@ -1,0 +1,59 @@
+@import "../base/min";
+
+.toolbar-wrap {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .toolbar-logo {
+        width: $navMenuWidth;
+        height: $navHeight;
+        text-align: center;
+        background-color: #EA6D2D;
+        img {
+            width: 50px;
+            margin-top: 5px;
+        }
+    }
+    .toolbar-nav {
+        position: relative;
+        background-color: #EA6D2D;
+        .toolbar-features {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            .el-dropdown-link {
+                height: $navHeight;
+                line-height: $navHeight;
+                color: #fff;
+                .features-name {
+                    display: inline-block;
+                    min-width: 50px;
+                    max-width: 170px;
+                    padding-left: 7px;
+                }
+                .icon-user {
+                    font-size: 1.5em;
+                    line-height: 0;
+                }
+                .icon-menu {
+                    font-size: 2em;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .el-menu {
+        border-radius: 0;
+    }
+    .el-menu--dark {
+        background-color: #32373A;
+    }
+    .el-menu--horizontal .el-menu-item {
+        height: 70px;
+        line-height: 70px;
+        &.is-active {
+            color: #fff;
+            background-color: #009EFE!important;
+        }
+    }
+}

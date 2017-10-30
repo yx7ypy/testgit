@@ -1,0 +1,12 @@
+@import "../base/min";
+
+.tips-plugin {
+    text-align: center;
+    padding-top: 25px;
+    .tips-text {
+    	width: 100%;
+    	line-height: 100px;
+    	text-align: center;
+    	color: $clColor;
+    }
+}

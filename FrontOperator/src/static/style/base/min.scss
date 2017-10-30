@@ -1,0 +1,48 @@
+// 基础font-size
+$font: 14;
+// 主色
+$bgPicton: #f9696c;
+
+$clWhite: #fff;
+$bgWhite: #fff;
+$clSupernova: #FBB83C;
+$bgSupernova: #FBB83C;
+$clJunebud: #B9D963;
+$bgJunebud: #B9D963;
+$bgPicton: #4EAFFC;
+$clDove: #747474;
+
+$clColor: #56667d;
+
+$borderColor: #d1dbe5;
+
+
+$fMoney: #FBB83C;
+
+// element 主色
+$lightBlue: #58B7FF;
+$blue: #20A0FF;
+$darkBlue: #1D8CE0;
+
+//element 辅助色
+$fBlue: #20A0FF;
+$fSuccess: #13CE66;
+$fWarning: #F7BA2A;
+$fDanger: #FF4949;
+
+// 登录页主内容宽度
+$loginWidth: 1300px;
+// 导航栏icon模式宽度
+$navMenuWidth: 165px;
+$navMenuIconWidth: 55px;
+$navHeight: 50px;
+.border-bottom {
+    border-bottom: 1px solid $borderColor;
+}
+.border-right {
+    border-right: 1px solid $borderColor;
+}
+
+
+// 新增
+$searDivHeight:36px;

@@ -1,0 +1,21 @@
+@import "../base/min";
+
+.see-goods-info{
+    background: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    ul li{
+        width: 100%;
+        height: $searDivHeight;
+        line-height: $searDivHeight;
+        span:nth-child(1){
+            float: left;
+            font-size: 16px;
+        };
+        span:nth-child(2){
+            float: left;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+    }
+}

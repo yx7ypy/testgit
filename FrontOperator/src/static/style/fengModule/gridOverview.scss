@@ -1,0 +1,19 @@
+.grid-overview {
+    width: 100%;
+    padding: 30px 0;
+	ul {
+		display: -webkit-box;
+		display: -moz-box;
+		display: box;
+		li {
+			-webkit-box-flex: 1;
+			-moz-box-flex: 1;
+			box-flex: 1;
+	        box-sizing: border-box;
+	        border-left: 1px solid #DDDDDD;
+	        &:first-child {
+	            border-left: none;
+	        }
+		}
+	}
+}

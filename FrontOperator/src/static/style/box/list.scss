@@ -1,0 +1,55 @@
+@import "../base/min";
+
+.box-list {
+    .h {
+        width: 100%;
+        height: $searDivHeight;
+        margin-bottom: 20px;
+        .fl:nth-child(2) {
+            margin-left: 40px;
+        }
+        .fl.max>div{
+            width: 570px;
+            
+        }
+        .fl.max>div>*{
+            float: left;
+        }
+    }
+    .el-table .cell li{
+        overflow: hidden;
+    }
+    .el-table .cell li span:nth-child(1) {
+        float: left;
+        width: 45%;
+        text-align: right;
+    }
+    .el-table .cell li span:nth-child(2) {
+        float: left;
+        width: 55%;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sear-oper-box{
+        button:nth-child(1){
+            background: #09bb07;
+            border: none;
+        }
+        button:nth-child(2){
+            background: #407ef5;
+            border: none;
+        }
+    }
+    .list-oper-box{
+        button:nth-child(1){
+            background: #ec6d1e;
+            border: none;
+        }
+        button:nth-child(2){
+            background: #407ef5;
+            border: none;
+        }
+    }
+}

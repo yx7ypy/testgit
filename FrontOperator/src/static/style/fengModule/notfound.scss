@@ -1,0 +1,19 @@
+.not-found {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #353535;
+    text-align: center;
+    z-index: 999;
+    .not-found-wrap {
+        display: inline-block;
+        h1 {
+            font-size: 11em;
+            color: #fff;
+        }
+        p {
+            color: #fff;
+            margin-bottom: 50px;
+        }
+    }
+}
